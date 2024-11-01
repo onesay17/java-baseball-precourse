@@ -32,7 +32,7 @@ public class BaseBallGame {
         } else if (strikeCount.equals(WINNING_STRIKE_COUNT)) {
             return WINNING_STRIKE_COUNT + STRIKE;
         } else {
-            return strikeCount + STRIKE + " " + ballCount + BALL;
+            return ballCount + BALL + " " + strikeCount + STRIKE;
         }
     }
 
